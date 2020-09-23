@@ -1,7 +1,4 @@
-# Product Assembly
-
-[![Build Status](https://travis-ci.org/spree-contrib/spree-product-assembly.svg?branch=master)](https://travis-ci.org/spree-contrib/spree-product-assembly)
-[![Code Climate](https://codeclimate.com/github/spree-contrib/spree-product-assembly/badges/gpa.svg)](https://codeclimate.com/github/spree-contrib/spree-product-assembly)
+# Product Assembly - Neolife Fork
 
 Create a product which is composed of other products.
 
@@ -12,7 +9,7 @@ Create a product which is composed of other products.
 1. Add this extension to your Gemfile with this line:
 
     ```ruby
-    gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly'
+    gem 'spree_product_assembly', github: 'grupo-neolife/spree-product-assembly'
     ```
 
 
