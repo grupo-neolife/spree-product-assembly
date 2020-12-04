@@ -27,11 +27,7 @@
             <%= Spree.t(:no_variants) %>
           <% end %>
         </td>
-        <% unless product.has_variants? %>
-          <td><%= hidden_field_tag "part[assembly_id]", product.master.id, class: 'parts-assembly' %>Master</td>
-        <% else %>
-          <td><%= select_tag "part[assembly_id]", options_from_collection_for_select(product.variants, "id", "options_text"), class: 'select2' %></td>
-        <% end %>
+        <td><%= hidden_field_tag "part[assembly_id]", product.master.id, class: 'parts-assembly' %>Master</td>
         <td><%= text_field_tag "part[count]", 1 %></td>
         <td class="actions">
           <%= image_tag "spinner.gif", :style => "display:none", :class => "spinner" %>
